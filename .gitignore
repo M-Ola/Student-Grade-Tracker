@@ -1,0 +1,47 @@
+*.iml
+.kotlin
+.gradle
+**/build/
+xcuserdata
+!src/**/build/
+local.properties
+.idea
+.DS_Store
+captures
+.externalNativeBuild
+.cxx
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/project.xcworkspace/
+!*.xcworkspace/contents.xcworkspacedata
+**/xcshareddata/WorkspaceSettings.xcsettings
+node_modules/
+# Gradle
+.gradle/
+
+build/
+
+# Kotlin
+*.class
+*.log
+
+# IntelliJ IDEA
+.idea/
+
+
+# macOS
+
+# SQLite database and temporary files
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Local settings
+
+
+# Environment files
+.env
+.env.*
